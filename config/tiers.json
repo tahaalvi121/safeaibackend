@@ -1,0 +1,40 @@
+{
+    "free": {
+        "name": "Free",
+        "maxUsers": 5,
+        "maxRequests": 1000,
+        "features": [
+            "Basic PII detection",
+            "Email & phone masking",
+            "ChatGPT & Claude support"
+        ],
+        "price": 0
+    },
+    "pro": {
+        "name": "Professional",
+        "maxUsers": 50,
+        "maxRequests": 50000,
+        "features": [
+            "All Free features",
+            "Advanced PII detection",
+            "All AI platforms",
+            "Document Wizard",
+            "Priority support"
+        ],
+        "price": 49
+    },
+    "enterprise": {
+        "name": "Enterprise",
+        "maxUsers": -1,
+        "maxRequests": -1,
+        "features": [
+            "All Pro features",
+            "Unlimited users",
+            "Unlimited requests",
+            "Custom policies",
+            "Dedicated support",
+            "SLA guarantee"
+        ],
+        "price": 299
+    }
+}
